@@ -1,3 +1,13 @@
+#AWS SDK for OSX
+
+Fork of the AWS iOS SDK v2.4.16 that has be OSXified for interacting with S3 on OSX. Changes made only to the AWSCore and AWSS3 modules.
+
+I refered to [this repository](https://github.com/imperiumsage/aws-sdk-ios) for changing these methods.
+
+I have also included [FTWDevice](https://github.com/FTW/FTWDevice.git) as a replacement for UIDevice.
+
+I confirmed that it can be built with macOS 10.12 SDK with Architecture is x86_64 (not i386).
+
 #AWS Mobile SDK for iOS
 
 ##Setting Up
